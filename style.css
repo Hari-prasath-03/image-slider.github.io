@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: rgb(212, 166, 86);
+    max-height: 100svh;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    min-height: 80vh;
+    width: 60%;
+    border: 5px solid rgb(20, 20, 20);
+    margin: 3.8rem auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px rgba(0,0,0,0.6);
+    position: relative;
+    background: url(image/captain_america.jpg) center/cover no-repeat;
+}
+
+.btn {
+    font-size: 20px;
+}
+
+.btn-left {
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    background-color: white;
+    border-radius: 50%;
+    transform: translateY(calc(-50%));
+    cursor: pointer;
+}
+
+.btn-right {
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    background-color: white;
+    border-radius: 50%;
+    transform: translateY(calc(-50%));
+    cursor: pointer;
+}
